@@ -1,0 +1,7 @@
+Susirasti data set kuris papildo su reikiamais atributais (2021)
+    - kur zaide
+    - kokia pozicija
+    - ar greitas release - top 25? y/n
+    - koks pataikymas 3pt
+    - koks pataikymas 2pt (su assuption kad nesiskiria forma)
+    - years old
