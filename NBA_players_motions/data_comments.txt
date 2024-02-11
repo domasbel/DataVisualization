@@ -1,0 +1,50 @@
+List of all columns:
+	- 'Player' - name of the player
+ 	- 'Pos' - position in which the player plays
+ 	- 'Team' - team for which the player played in 2020-2021 season
+ 	- 'Age' - age of the player at 2020-2021 season
+	- 'hght' - player height (inches)
+	- 'n' - number of three point shots in the dataset
+ 	- 'G' - games played
+ 	- 'MP' - minutes played
+	- 'USG%' - the percentage of his team's possessions that a player ends
+	- 'FG' - field goals made by the player
+	- 'FGA' - field goals attempted by the player
+	- 'FG%' - field goal percentage
+	- '3P' - three point shots made by the player
+	- '3PA' - three point shots attempted by the player
+	- '3P%'	- three point percentage
+	- '2P' - two point shots made by the player
+	- '2PA' - two point shots attempted by the player
+	- '2P%' - two point percentage
+	- 'FT' - free throws made by the player
+	- 'FTA' - free throws attempted by the player
+	- 'FT%' - free throws percentage
+	- 'TS%' - true shooting, derived advanced statistic, that measures a player's efficiency at shooting the ball.
+	- 'bx', 'by', 'bz' - x, y, and z coordinates of the beginning of the player's shot motion (in feet). x and y are relative to the point of release (roughly). x coordinate is left/right from the perspective of the player, y coordinate measures distance towards/away from the basket
+	- 'rt' - release time; time (in seconds) from the beginning of the shot motion to point of release
+	- 'rx', 'ry', 'rz' - x, y, and z coordinates of the point of release (in feet). x coordinate is left/right from the perspective of the player, y coordinate measures distance towards/away from the basket.
+	- 'rv' - release velocity; speed of ball (feet/second) at point of release
+	- 'rvx', 'rvy', 'rvz' - x, y, and z components of release velocity
+	- 'mnv' - minimum velocity of ball during player shooting motion (feet/second)
+	- 'mnvt' - time (in seconds) when minimum velocity is reached (e.g. 0.307 means that minimum velocity is reached 0.307 seconds after the shooting motion begins)
+	- 'mnvx', 'mnvy', 'mnvz' - x, y, and z components of the minimum velocity of the ball (mnv)
+	- 'mxv' - maximum velocity of ball during player shooting motion (feet/second)
+	- 'mxvt' - time (in seconds) when maximum velocity is reached (e.g. 0.115 means that maximum velocity is reached 0.115 seconds after the shooting motion begins)
+	- 'mxvx', 'mxvy', 'mxvz' - x, y, and z components of the maximum velocity of the ball (mxv)
+	- 'ta1t' - time (in seconds) when the ball first switches direction from going towards the hoop to away from the hoop. This typically happens early in the shooting motion as the player brings the ball up from around waist level.
+	- 'ta1x', 'ta1y', 'ta1z' - x, y, and z coordinates at the point when the ball first switches direction from going towards the hoop to away from the hoop.
+	- 'ta2t', 'ta2x', 'ta2y', 'ta2z' - same as the ta1 fields defined above, but specifies the time and position coordinates of the second time the ball switches from going towards the hoop to away from the hoop. Field shows “NA” if there is no second point. 
+	- 'at1t' - time (in seconds) when the ball first switches direction from going away from the hoop to towards the hoop. This typically happens as the player has brought the ball back above their head and starts the process of launching the ball towards the basket.
+	- 'at1x', 'at1y', 'at1z' - x, y, and z coordinates at the point when the ball first switches direction from going away from the hoop to towards the hoop.
+	- 'at2t', 'at2x', 'at2y', 'at2z' - same as the “at1” fields defined above, but specifies the time and position coordinates of the second time the ball switches from going away from the hoop to towards the hoop. Field shows “NA” if there is no second point.
+	- 'lr1t' - time (in seconds) when the ball first switches direction from left to right (from the perspective of the shooter). Most players have a shooting motion that is not strictly straight up and down, but involves some lateral movement.
+	- 'lr1x', 'lr1y', 'lr1z' - x, y, and z coordinates at the point when the ball first switches direction from moving left to moving right
+	- 'lr2t', 'lr2x', 'lr2y', 'lr2z' - same as the “lr1” fields defined above, but for the second time the ball switches direction from left to right
+	- 'rl1t' - time (in seconds) when the ball first switches direction from right to left (from the perspective of the shooter). Most players have a shooting motion that is not strictly straight up and down, but involves some lateral movement.
+	- 'rl1x', 'rl1y', 'rl1z' - x, y, and z coordinates at the point when the ball first switches direction from moving right to moving left
+	- 'rl2t', 'rl2x', 'rl2y', 'rl2z' - same as the “rl1” fields defined above, but for the second time the ball switches direction from right to left
+	- 'pl' - path length of the players shooting motion (in feet). The length of the path the ball traces from the beginning of the shooting motion to release.
+	- 'spl' - the “straight line” path between the beginning of the shooting motion and the point of release
+	- 'plr' - ratio between the path length (pl) and the “straight line” path (spl). A measure of how direct or convoluted a player’s shooting motion is (e.g. how directly do they get the ball from point A to point B)
+
